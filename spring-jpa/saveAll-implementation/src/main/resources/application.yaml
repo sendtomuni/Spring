@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: learn
+    password: learn
+    hikari:
+      minimum-idle: 10
+      keepalive-time: 10000
+      
+  jpa:
+    database-platform: org.hibernate.dialect.OracleDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update

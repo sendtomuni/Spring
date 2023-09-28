@@ -1,0 +1,15 @@
+emp:
+  eno: 124
+  ename: Adwait
+  favColors: black,red,yellow
+  nickNames: koko,kuku,kaka
+  phoneNumbers: 123456,789012,345678
+  details:
+    aadharId: 987678
+    pan: ACN98L
+    dl: 2011-567-98
+  company:
+    id: 123
+    name: supre
+    address: world
+    size: 5
